@@ -1,0 +1,119 @@
+body{margin: 0;
+    font-family: 'Yeseva One', cursive;
+}
+#topo{
+	background: url("imagens/images/vector.png" ) no-repeat left top , url("imagens/images/background.png") no-repeat center top;
+	padding-bottom: 40px;
+	background-size: cover;
+}
+.shape{
+    width: 20%;
+    float: left;
+    margin: 0 inherit;
+}
+.logo img{
+    padding: 20px;
+	max-width: 180px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.conteudo{
+	max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+.conteudo div{
+	float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+.conteudo h3, .info h3{
+    font-family: 'Luckiest Guy', cursive;
+	color:#f4f6f8;
+	text-align: center;
+	font-size: 40px;
+    text-shadow: 2px 2px black;
+}
+.conteudo p{
+    
+    font-size: 25px;
+    text-align: center;
+    color: rgb(218, 14, 99);
+   
+    margin: 0 auto;
+   
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+.formulario{
+    margin: 0 auto;
+    width: 50%;
+	background: #67d2fe;
+	border:#134150 solid 3px;
+	border-radius: 10px;
+	padding: 15px;
+}
+.formulario input[type="text"], .formulario input[type="email"], .formulario select{
+	width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 8px 10px;
+    box-shadow: inset 0px 1px 4px rgb(0 0 0 / 75%);
+}
+.formulario label{display: block}
+.formulario input[type="submit"]{
+	width: 80%;
+    margin: 20px auto 10px auto;
+    display: block;
+    background: #134150;
+    border: none;
+    padding: 10px 0;
+    border-radius: 200px;
+    color: #fff;
+}
+.destaque{color: #fff}
+.aceite{font-size: 14px}
+#baixo{
+	background: #003f50;
+	padding: 20px 0;
+}
+.conteudo-bottom{
+	max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: solid 4px #9eee00;
+    padding: 20px;
+}
+.info{text-align: center;color: #fff}
+.vantagens{overflow: hidden;}
+.vantagens div{
+	float: left;
+	width: 33%;
+	box-sizing: border-box;
+}
+.vantagens img{display: block;margin: 0 auto;}
+.vantagens p{text-align: center;color: #fff}
+@media (max-width: 496px){
+	.conteudo div{width:100%;}
+	.vantagens div{width: 100%}
+}
+
+@keyframes neon{
+    from{
+        filter:drop-shadow(0 0 0 var(--cor-neon));
+    } 
+    to{
+        filter: drop-shadow(0 0 100px var(--cor-neon));
+    }   
+}
+
+.conteudo p{
+    animation: neon 3s alternate infinite ease-in-out;
+    --cor-neon:#fbff00;
+}
