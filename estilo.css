@@ -57,6 +57,11 @@ body{margin: 0;
 	border-radius: 10px;
 	padding: 15px;
 }
+.formulario h3{
+    font-size: 15px;
+    color: #000;
+    text-shadow: none;
+}
 .formulario input[type="text"], .formulario input[type="email"], .formulario select{
 	width: 100%;
     box-sizing: border-box;
@@ -114,6 +119,6 @@ body{margin: 0;
 }
 
 .conteudo p{
-    animation: neon 3s alternate infinite ease-in-out;
+    animation: neon 2s alternate infinite ease-in-out;
     --cor-neon:#fbff00;
 }
