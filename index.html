@@ -2,67 +2,48 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>1ª Live - Costruindo uma LP do Zero</title>
+	<title>HIRING CODERS - Gama Academy - VTEX Desafio 1 Thiago Santos</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	
 	<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+	<script src="script.js" defer></script>
 </head>
 <body>
 	<section id="topo">
 		
 		<div class="logo">
-			<img src="imagens/images/Text.png" alt="Logotipo">
+			<img src="imagens/images/logo.png" alt="Logotipo">
+			
 		</div>
 		<div class="conteudo">
 			
 			<div>
-				<h3>Aproveite super Promoção do Mês de julho</h3>
+				<h3>APROVEITE SUPER PROMOÇÃO DO MÊS DE JULHO</h3>
 				<p>Toda a loja com 20% de desconto  </p>
 				
  
 			</div>
 			<div>
 				
-				<form class="formulario">
+				<form action="" class="formulario">
 					<h3>Quer receber promoções como esta?</h3>
 					<h3>Cadastre seu e-mail</h3>
-					<input type="text" name="nome" placeholder="Nome" required >
-					<input type="email" name="email" placeholder="E-mail" required>
+					<input type="text" id="name" name="nome" placeholder="Nome" required >
+					<input type="email" id="email" name="email" placeholder="E-mail" required>
 					
-					<label class="aceite"><input type="checkbox" name="aceite" required>Aceito receber comunicações</label>
-					<input type="submit" name="enviar" value="ENVIAR">
+					<label class="aceite"><input type="checkbox" id="check" name="aceite" required>Aceito receber e-mails promocionais</label>
+					<input type="submit" onclick="return ValidaForm();" id="send" name="enviar" value="ENVIAR">
 				</form>
-			</div>
-			
-		</div>
-	</section>
-	<section id="baixo">
-		<div class="conteudo-bottom">
-			<div class="info">
-				<h3>Sua empresa pode estar pagando impostos indevidos! </h3>
-				<p>Você sabia que as empresas que trabalham com revenda de produtos monofásicos, como cosméticos, medicamentos, bebidas, cigarros, combustíveis, pneus e autopeças, são isentas do pagamento dos tributos de PIS/COFINS?</p>
-				<p>Por isso, você pode estar pagando tributos quando não há mais necessidade e tem direito à restituição desse valor. </p>
-			</div>
-			<div class="vantagens">
-				<div>
-					<img src="imagens/mi.png" alt="Vantagem">
-					<p>+ de R$ 250 milhões habilitados</p>
-				</div>
-				<div>
-					<img src="imagens/ex.png" alt="Vantagem">
-					<p>+ de 10 anos de experiência</p>
-				</div>
-				<div>
-					<img src="imagens/horas.png" alt="Vantagem">
-					<p>+ de 200.000 horas de consultoria</p>
-				</div>
-				
-			</div>
+				<input class="entrar" type="submit"  name="entrar" value="Entrar na Loja">
 
 		</div>
-		
+
+		</div>
+		<div class="designed">
+			<h3>DESIGNED BY Thiago Santos</h3>
+		</div>
 	</section>
+	
 </body>
 </html>

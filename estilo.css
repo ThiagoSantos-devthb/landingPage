@@ -30,7 +30,7 @@ body{margin: 0;
     box-sizing: border-box;
     padding: 0 15px;
 }
-.conteudo h3, .info h3{
+.conteudo h3{
     font-family: 'Luckiest Guy', cursive;
 	color:#f4f6f8;
 	text-align: center;
@@ -38,13 +38,10 @@ body{margin: 0;
     text-shadow: 2px 2px black;
 }
 .conteudo p{
-    
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
     color: rgb(218, 14, 99);
-   
     margin: 0 auto;
-   
     font-weight: bold;
     padding-bottom: 20px;
 
@@ -71,7 +68,9 @@ body{margin: 0;
     padding: 8px 10px;
     box-shadow: inset 0px 1px 4px rgb(0 0 0 / 75%);
 }
-.formulario label{display: block}
+.formulario label{
+    display: block
+}
 .formulario input[type="submit"]{
 	width: 80%;
     margin: 20px auto 10px auto;
@@ -82,28 +81,24 @@ body{margin: 0;
     border-radius: 200px;
     color: #fff;
 }
-.destaque{color: #fff}
-.aceite{font-size: 14px}
-#baixo{
-	background: #003f50;
-	padding: 20px 0;
+.entrar{
+    border-color:#fefcff;
+    background:linear-gradient(to bottom, #6202fd 5%, #03b5fc 100%);
+    box-shadow:inset 0px 1px 0px 0px #fff4f3;
+    color:#fff;
+    text-shadow:0px 1px 0px #528009;  
+    padding: 10px 0;
+    border-radius: 200px;
+    width: 80%;
+    margin: 20px auto 10px auto;
+    display: block;
 }
-.conteudo-bottom{
-	max-width: 600px;
-    overflow: hidden;
-    margin: 0 auto;
-    border-top: solid 4px #9eee00;
-    padding: 20px;
+.aceite{
+    font-size: 14px
 }
-.info{text-align: center;color: #fff}
-.vantagens{overflow: hidden;}
-.vantagens div{
-	float: left;
-	width: 33%;
-	box-sizing: border-box;
+.designed{
+    font-size: 10px;
 }
-.vantagens img{display: block;margin: 0 auto;}
-.vantagens p{text-align: center;color: #fff}
 @media (max-width: 496px){
 	.conteudo div{width:100%;}
 	.vantagens div{width: 100%}
