@@ -5,7 +5,7 @@
 Para esse projeto foram usados Javascript, CSS e Html.
 
 ## Descrição
- Consiste em um landingpage de uma promição, onde pode-se cadastar o e-mail para receber atualizações.
+ Consiste em um landingpage de uma promoção, onde pode-se cadastar o e-mail para receber atualizações.
  
 ## Funcionamento
  Veja o funcionamento direto no link:
