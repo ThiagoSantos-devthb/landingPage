@@ -10,3 +10,8 @@ Para esse projeto foram usados Javascript, CSS e Html.
 ## Funcionamento
  Veja o funcionamento direto no link:
  https://dreamy-goodall-5695a0.netlify.app/
+ 
+ <p align="center">
+<img src="https://github.com/ThiagoSantos-devthb/Desafio-landing-Page-Black-Friday-Hiring-Coders-/blob/main/landingpage%20blackfriday.png"/>
+</p>
+
